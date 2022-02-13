@@ -5,6 +5,7 @@ class Solution {
         int curMax = nums[0];
         int curMin = nums[0];
         int result = nums[0];
+        //https://www.youtube.com/watch?v=lXVy6YWFcRM
         for(int i=1;i<nums.length;i++)
         {
             if(nums[i] == 0)
