@@ -26,8 +26,6 @@ class Solution {
             s.append(st.pop());
         }
         
-        System.out.println(" bui "+s.toString());
-        
         s.reverse();
         
         while(s.toString().startsWith("0"))
