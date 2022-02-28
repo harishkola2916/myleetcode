@@ -22,12 +22,12 @@ class Solution {
         if(arrayOfStr[0].equals("0"))
             return "0";
         
-        StringBuilder numberStr = new StringBuilder();
+        String numberStr = new String();
         for(String num: arrayOfStr){
-            numberStr.append(num);
+            numberStr+=num;
         }
         
-        return numberStr.toString();
+        return numberStr;
     }
                 
 }
